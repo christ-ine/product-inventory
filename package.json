@@ -1,0 +1,33 @@
+{
+  "name": "product-inventory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "data:import": "node seeder",
+    "data:destroy": "node seeder -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christ-ine/product-inventory.git"
+  },
+  "author": "Christine Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christ-ine/product-inventory/issues"
+  },
+  "homepage": "https://github.com/christ-ine/product-inventory#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0"
+  }
+}
